@@ -983,3 +983,254 @@ body {
         min-height: 48px;
     }
 }
+.about-section {
+    width: 100%;
+    min-height: 430px;
+    padding: 65px 5% 60px;
+    background: linear-gradient(135deg,
+            #f5e0ee,
+            #fbe8f5,
+            #eaeefa);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.sweetstorypara {
+    max-width: 600px;
+    text-align: left;
+    margin: 0;
+    color: #8b7d9d;
+    font-size: 19px;
+    line-height: 1.8;
+}
+.aboutsectionform{
+    
+    width: 100%;
+    padding: 70px 20px;
+    background-color: #f8ccdb;
+    /* background: linear-gradient(135deg, #f9dfe2, #f7e8f3); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+special-card p {
+    max-width: 710px;
+    text-align: center;
+    margin: 0;
+    color: #8b7d9d;
+    font-size: 17px;
+    line-height: 1.8;
+}
+.email-btn {
+    width: 100px;
+    border: 2px solid #278b8b;
+    border-radius: 15px;
+    background: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.footer {
+    background-color: #79b8a7;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 45px 65px;
+    gap: 50px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h2 {
+    color: #d9f5e9;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-column p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 22px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+
+    background-color: white;
+    color: #79b8a7;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+.special {
+    margin-top: 25px ;
+}
+@media (max-width: 768px) {
+
+    .footer {
+        flex-direction: column;
+        padding: 35px 30px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+}
+.bottom-area {
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #fff8f3;
+}
+
+.bottom-area p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #777;
+}
+@media (max-width: 768px) {
+    .bottom-area {
+        padding: 20px 15px;
+    }
+
+    .bottom-area p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+}
+@media (max-width: 768px) {
+
+    /* Our Sweet Story */
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .about-section > div {
+        width: 100%;
+    }
+
+    .special-heading h2 {
+        text-align: center !important;
+        font-size: 30px;
+    }
+
+    .sweetstorypara p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .about-section svg {
+        width: 100%;
+        height: auto !important;
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+
+    /* Sweet Club Section */
+    .aboutsectionform {
+        padding: 30px 20px;
+    }
+
+    .special-card {
+        width: 100%;
+        padding: 25px 15px;
+    }
+
+    .special-card h3 {
+        font-size: 24px;
+    }
+
+    .special-card > p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .special-card > div[style*="display: flex"] {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 15px !important;
+    }
+
+    .email-btn {
+        width: 100% !important;
+        height: 55px !important;
+    }
+
+    .special-card .btn-1 {
+        width: 100%;
+        height: 55px !important;
+    }
+
+    /* Benefits */
+    .special-card > div:last-child {
+        flex-direction: column !important;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .special-card > div:last-child > div {
+        justify-content: flex-start !important;
+        align-items: center;
+        width: 100%;
+    }
+
+    .special-card > div:last-child p {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .about-section {
+        padding: 30px 15px;
+    }
+
+    .special-heading h2 {
+        font-size: 25px;
+    }
+
+    .about-section svg {
+        max-width: 280px;
+    }
+
+    .special-card {
+        padding: 20px 12px;
+    }
+
+    .special-card h3 {
+        font-size: 21px;
+    }
+
+    .special-card > p {
+        font-size: 13px;
+    }
+}
