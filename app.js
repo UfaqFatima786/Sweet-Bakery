@@ -42,3 +42,25 @@ const countdown = setInterval(() => {
     }
 
 }, 1000);
+    
+    gsap.from(".about-section > div", {
+        y: 40,
+        duration: 1,
+        ease: "power2.out"
+    });
+
+    gsap.from(".about-section svg", {
+        scale: 0.9,
+        duration: 1,
+        delay: 0.2,
+        ease: "power2.out"
+    });
+
+    gsap.from(".aboutsectionform .special-card", {
+        y: 40,
+        duration: 1,
+        delay: 0.3,
+        ease: "power2.out"
+    });
+
+    
